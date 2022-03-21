@@ -1,0 +1,49 @@
+.container {
+	margin-top: 20vh;
+}
+
+.container-recall {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+img {
+    height: 150px;
+    align-items: center;
+}
+
+h1 {
+	color: white !important;
+	font-size: 3rem;
+	margin: 0 0 5vh 0;
+}
+
+input#zap-goal-input,
+select {
+	width: clamp(141px, 15vw, 300px);
+	height: clamp(31px, 6vh, 60px);
+	border-radius: 5px;
+	border: none;
+	color: #d70900;
+	font-size: 12px;
+}
+input#zap-goal-input:focus {
+	outline: 2px solid #d70b0088; 
+}
+
+button {
+	color: #d70900;
+	width: clamp(141px, 15vw, 300px);
+	height: clamp(31px, 6vh, 60px);
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border: 1px solid #d70900;
+	box-shadow: 0 4px 4px #00000026;
+    align-items: center;
+}
+
+button:hover {
+	cursor: pointer;
+	transform: scale(1.02);
+}
